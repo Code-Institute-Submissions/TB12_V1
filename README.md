@@ -79,3 +79,5 @@ DEPLOYMENT:
 
 RESOURCES/CREDITS:
 ----------------------------------------------------------------------------------------------------------------------------------------- 
+
+SLACK CKz870 - Provided Json fixture creation python file so can create on json fixtures. To build custom files for use. 
