@@ -38,6 +38,8 @@ Django
 Django-allauth
 
 Python
+Json
+Javascript
 
 HTMLS
 
@@ -60,6 +62,11 @@ ISSUE
 BUGS
 ----------------------------------------------------------------------------------------------------------------------------------------
 Bootstrap cdn not working correctly for dropdown list. 
+
+could not get products to load.  error :Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.8/site-packages/django/db/models/options.py", line 575, in get_field
+    return self.fields_map[field_name]
+KeyError: 'catergory'
 
 
 
