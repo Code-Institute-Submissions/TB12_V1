@@ -19,10 +19,10 @@
                 Nutrition
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="nutrition-link">
-                <a href="" class="dropdown-item">Supplements</a>
-                <a href="" class="dropdown-item">Electrolytes</a>
-                <a href="" class="dropdown-item">Protein</a>
-                <a href="" class="dropdown-item">All Nutrition</a>
+                <a href="{% url 'products'%}?category=supplements" class="dropdown-item">Supplements</a>
+                <a href="{% url 'products'%}?category=electrolytes" class="dropdown-item">Electrolytes</a>
+                <a href="{% url 'products'%}?category=protein" class="dropdown-item">Protein</a>
+                <a href="{% url 'products'%}?category=supplements,electrolytes,protein" class="dropdown-item">All Nutrition</a>
             </div>
         </li>
 
@@ -31,9 +31,9 @@
                 Equipment
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="equipment-link">
-                <a href="" class="dropdown-item">Vibrating Rollers & Spheres</a>
-                <a href="" class="dropdown-item">Resistance Bands & Equipment</a>
-                <a href="" class="dropdown-item">All Equipemtn</a>
+                <a href="{% url 'products'%}?category=vibrating,rollers,pheres" class="dropdown-item">Vibrating Rollers & Spheres</a>
+                <a href="{% url 'products'%}?category=resistance,bands,equipment" class="dropdown-item">Resistance Bands & Equipment</a>
+                <a href="{% url 'products'%}?category=vibrating_rollers,spheres,resistance,bands,equipment" class="dropdown-item">All Equipment</a>
             </div>
         </li>
 
@@ -42,10 +42,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products'%}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products'%}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products'%}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products'%}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
