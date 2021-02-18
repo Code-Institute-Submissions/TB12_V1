@@ -80,8 +80,12 @@ Request URL:	http://localhost:8000/media/nutrition.jpeg
 Raised by:	django.views.static.serve     -- fixed .(typo in urls.py file) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 -------
 Opening product_details page getting error : NoReverseMatch at /products/ 
-Seems to be an issue with URL not being picked up.
+Seems to be an issue with URL not being picked up.   / / fixed (another typo but urls.py for products, name attri was not correct )
 -------
+
+product.html file htr horizontal rule floating to the left of screen , not centered. 
+-------
+
 
 
 TESTING 
