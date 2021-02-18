@@ -61,13 +61,27 @@ ISSUE
 
 BUGS
 ----------------------------------------------------------------------------------------------------------------------------------------
-Bootstrap cdn not working correctly for dropdown list. 
 
+-------
+Bootstrap cdn not working correctly for dropdown list. 
+-------
 could not get products to load.  error :Traceback (most recent call last):
   File "/workspace/.pip-modules/lib/python3.8/site-packages/django/db/models/options.py", line 575, in get_field
     return self.fields_map[field_name]
-KeyError: 'catergory'
+KeyError: 'catergory'    -- resolve
 
+-------
+
+Images not loading from django admin in products. ERROR:
+
+Page not found (404)
+Request Method:	GET
+Request URL:	http://localhost:8000/media/nutrition.jpeg
+Raised by:	django.views.static.serve     -- fixed .(typo in urls.py file) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+-------
+Opening product_details page getting error : NoReverseMatch at /products/ 
+Seems to be an issue with URL not being picked up.
+-------
 
 
 TESTING 
