@@ -85,6 +85,9 @@ Seems to be an issue with URL not being picked up.   / / fixed (another typo but
 
 product.html file htr horizontal rule floating to the left of screen , not centered. 
 -------
+Sorting on rating instead of a "=desc" or "=asc" a minus symbol replaces the equals which is inccorrect so the page does not sort. 
+
+-------
 
 
 
