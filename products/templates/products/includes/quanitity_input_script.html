@@ -1,0 +1,22 @@
+
+
+
+<script type="text/javascript">
+    $('increment-qty').click(function(e){
+        e.preventDefault();
+        var closeInput = $(this).closest('.input-group').find('.qty_input')[0];
+        var currentValue = parseInt($(closeInput).val());
+        $(closeInput).val(currentValue + 1);
+
+    });
+
+    $('decrement-qty').click(function(e){
+        e.preventDefault();
+        var closeInput = $(this).closest('.input-group').find('.qty_input')[0];
+        var currentValue = parseInt($(closeInput).val());
+        $(closeInput).val(currentValue - 1);
+
+    });
+
+
+</script>
