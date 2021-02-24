@@ -90,6 +90,12 @@ Fixed- it was a typo in href for main_nav.html
 
 -------
 
+toasts close symbol not showing in the correct location. Needs to be floated to the right .
+
+-------
+
+
+
 
 
 TESTING 
