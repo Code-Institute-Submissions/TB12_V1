@@ -94,7 +94,11 @@ toasts close symbol not showing in the correct location. Needs to be floated to 
 
 -------
 
-Stipe - local variables not loading so unable to test payment Functionatily
+Stipe - local variables not loading so unable to test payment Functionatily :// temp fixed manually loading 
+
+-------
+
+Django database not updating values - missing import in apps.py - fixed
 
 -------
 
