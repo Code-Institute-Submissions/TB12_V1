@@ -40,8 +40,8 @@ Django-allauth
 Python
 Json
 Javascript
-
-HTMLS
+HTML
+Stripe
 
 
 Enviorment Variables:
@@ -91,6 +91,10 @@ Fixed- it was a typo in href for main_nav.html
 -------
 
 toasts close symbol not showing in the correct location. Needs to be floated to the right .
+
+-------
+
+Stipe - local variables not loading so unable to test payment Functionatily
 
 -------
 
