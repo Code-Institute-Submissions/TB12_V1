@@ -110,7 +110,8 @@ TESTING
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-
+Created webhooks handler and webhooks.py. Stripe website not recieving responces yet. 
+Port 8000 was showing as private. Made public resolved the issue.
 
 
 
