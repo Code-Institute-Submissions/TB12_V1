@@ -1,1 +1,1 @@
-web: gunicorn tb12_v1.wsgi.application.wsgi:application
+gunicorn tb12_v1.wsgi:application
