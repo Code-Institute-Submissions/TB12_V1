@@ -3,12 +3,17 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/tb12_backgorund.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+    height: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 /* from Bulma */
 .icon {
@@ -28,26 +33,36 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #900000;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #de0505;
+    font-style: italic;
     color: white;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    color: #de0505 !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #de0505;
+}
+
+.tb-12 {
+    background: white;
+    color: #de0505;
+    font-weight: 900;   
+    font-stretch: ultra-expanded;
+    font-style: italic;
+
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #de0505;
     color: white !important;
 }
 
@@ -57,7 +72,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #de0505;
     color: white;
 }
 
@@ -66,11 +81,11 @@ body {
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #de0505 !important;
 }
 
 .bg-black {
-    background: #000 !important;
+    background: #de0505 !important;
 }
 
 .overlay {
@@ -84,7 +99,7 @@ body {
 }
 
 a.category-badge > span.badge:hover {
-    background: #212529 !important;
+    background: #de0505 !important;
     color: #fff !important;
 }
 
@@ -123,19 +138,19 @@ input[name='q']::placeholder {
     height: 2px;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+
 .arrow-up {
     width: 0; 
     height: 0; 
     border-left: 4px solid transparent;
     border-right: 4px solid transparent; 
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #de0505;
     position: absolute;
     top: -10px;
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
+
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -191,7 +206,7 @@ input[name='q']::placeholder {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #de0505;
     border-radius: 0;
 }
 
@@ -215,8 +230,8 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #de0505;
+    border: 1px solid #de0505;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -228,9 +243,9 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
-    background-color: #222;
-    border-color: #222;
+	color: #de0505;
+    background-color: #fff;
+    border-color: #de0505;
 }
 
 .allauth-form-inner-content a {
@@ -246,6 +261,10 @@ input[name='q']::placeholder {
         left: 0;
         z-index: 1030;
     }
+
+.background{ 
+    background-color: white;
+}
 
     .header-container {
         padding-top: 164px;
