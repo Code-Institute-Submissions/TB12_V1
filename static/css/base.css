@@ -9,9 +9,6 @@ body {
     color: #555;
     font-family: 'Lato';
     height: 100%;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 
@@ -54,7 +51,6 @@ body {
     background: white;
     color: #de0505;
     font-weight: 900;   
-    font-stretch: ultra-expanded;
     font-style: italic;
 
 }

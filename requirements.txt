@@ -20,3 +20,6 @@ s3transfer==0.3.4
 sqlparse==0.4.1
 stripe==2.56.0
 unicorn==1.0.2
+
+
+

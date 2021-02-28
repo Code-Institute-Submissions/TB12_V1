@@ -6,7 +6,7 @@ Description:
 
 This is a website to build a fitness commiunity providing exercise plans, Nutrition plans , Nutrition and exercise products.
 
-User will be able to purchase subscripton based payment model and indivdual payments models.
+User will be able to purchase idividual payments model for products.
 
 
 
@@ -14,21 +14,17 @@ User will be able to purchase subscripton based payment model and indivdual paym
 Features Implemented:
 ----------------------------------------------------------------------------------------------------------------------------
 
+profile log in 
+
+
+Authenication and authorisation mechanisms for adminstrators
+
 
 Features left to implement:
 -------------------------------------------------------------------------------------------------------------------------------
 
-Functionatily on members on their successes / accomplishments
 
-User profiles containing infomation that map to Nutrition and excercise plans
 
-product reviews 
-
-Subscription based payment model
-
-Indivdual item purchase capabilties
-
-Authenication and authorisation mechanisms for subscribers and adminstrators
 
 
 Technologies Used:
