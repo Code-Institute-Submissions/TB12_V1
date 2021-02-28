@@ -4,9 +4,14 @@
 Description:
 ----------------------------------------------------------------------------------------------------------------------------
 
+A Tribute to Tom Brady
+
 This is a website to build a fitness commiunity providing exercise plans, Nutrition plans , Nutrition and exercise products.
 
 User will be able to purchase idividual payments model for products.
+
+User are able to create profiles to track order history and save address details for next orders. 
+
 
 
 
@@ -14,15 +19,19 @@ User will be able to purchase idividual payments model for products.
 Features Implemented:
 ----------------------------------------------------------------------------------------------------------------------------
 
-profile log in 
-
-
-Authenication and authorisation mechanisms for adminstrators
-
+Account creation/register
+LogOut and Log in Feauture
+View profile with historty of current and previous orders.
+Search through database of products. 
+admin can create new products and edit existing ones
+Abilty to create new profile and verify user via email.
 
 Features left to implement:
 -------------------------------------------------------------------------------------------------------------------------------
 
+Subscription payement model. 
+
+More products to be added to database for assignment for special offers.
 
 
 
@@ -32,7 +41,7 @@ Technologies Used:
 
 Django
 Django-allauth
-
+heroku 
 Python
 Json
 Javascript
@@ -47,16 +56,6 @@ Enviorment Variables:
 
 
 Debugging: 
-
-FIXED
--------------------------------------------------------------------------------------------------------------------------------------
-
-
-ISSUE 
-----------------------------------------------------------------------------------------------------------------------------------------
-
-BUGS
-----------------------------------------------------------------------------------------------------------------------------------------
 
 -------
 Bootstrap cdn not working correctly for dropdown list. 
@@ -109,11 +108,38 @@ TESTING
 Created webhooks handler and webhooks.py. Stripe website not recieving responces yet. 
 Port 8000 was showing as private. Made public resolved the issue.
 
+Checked all links to pages and work succefully.
+
+Tested navigation and links and all work fine. 
+
+Can Create products and stored correctly with format in database.
+
+The infomation stored on database can be retrieved a dispalyed onscreen correctly to be purchased.
+
+Tested editing a product as admin as well deleting. (message promt when deleting works.)
+
+Tested all buttons and input fields. All displaying correctly at all resolutions. 
+
+Log in and out feautes are working and Store password securely.
+
+While testing notice nutriction items were not showing. _Fixed
+
+Stripe payments are working correctly. 
+
+Tested new account with confimr email works fine. 
+
+
 
 
 DEPLOYMENT:
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+Deplayed to heroku with static and media files hosted on AWS.
+
+https://sk-tb12.herokuapp.com/
+
+
 
 
 
